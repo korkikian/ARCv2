@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- See Relax specification: Ghidra/Framework/SoftwareModeling/data/languages/language_definitions.rxg -->
+<language_definitions>
+  <language processor="ARCv2"
+            endian="little"
+            size="32"
+            variant="default"
+            version="0.1"
+            slafile="ARCv2.sla"
+            processorspec="ARCv2.pspec"
+            id="ARCv2:LE:32:default">
+    <description>ARCv2 microcontroller</description>
+    <compiler name="default" spec="ARCv2.cspec" id="default"/>
+    <external_name tool="DWARF.register.mapping.file" name="ARCv2.dwarf"/>
+  </language>
+</language_definitions>
